@@ -1,0 +1,114 @@
+{
+  "tests": [
+    {
+      "name": "Test 1 (1024bits)",
+      "setup": "",
+      "run": "timeout 5 ./decode tests/key1.txt tests/msg10.txt > output && cmp output tests/msg0.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2 (1024bits)",
+      "setup": "",
+      "run": "timeout 5 ./decode tests/key1.txt tests/msg11.txt > output && cmp output tests/msg1.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3 (1024bits)",
+      "setup": "",
+      "run": "timeout 5 ./decode tests/key1.txt tests/msg12.txt > output && cmp output tests/msg2.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4 (1024bits)",
+      "setup": "",
+      "run": "timeout 5 ./decode tests/key1.txt tests/msg13.txt > output && cmp output tests/msg3.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5 (1024bits)",
+      "setup": "",
+      "run": "timeout 5 ./decode tests/key1.txt tests/msg14.txt > output && cmp output tests/msg4.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6 (2048bits)",
+      "setup": "",
+      "run": "timeout 30 ./decode tests/key2.txt tests/msg20.txt > output && cmp output tests/msg0.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7 (2048bits)",
+      "setup": "",
+      "run": "timeout 30 ./decode tests/key2.txt tests/msg21.txt > output && cmp output tests/msg1.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8 (2048bits)",
+      "setup": "",
+      "run": "timeout 30 ./decode tests/key2.txt tests/msg22.txt > output && cmp output tests/msg2.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9 (2048bits)",
+      "setup": "",
+      "run": "timeout 30 ./decode tests/key2.txt tests/msg23.txt > output && cmp output tests/msg3.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10 (2048bits)",
+      "setup": "",
+      "run": "timeout 30 ./decode tests/key2.txt tests/msg24.txt > output && cmp output tests/msg4.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11 (2048bits)",
+      "setup": "",
+      "run": "timeout 30 ./decode tests/key2.txt tests/msg25.txt > output && cmp output tests/msg5.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

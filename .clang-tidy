@@ -1,0 +1,19 @@
+---
+Checks: -*,
+  clang-diagnostic-*,
+  clang-analyzer-*,
+  performance-*,
+  bugprone-*,
+  portability-*,
+  readability-*,
+  -clang-diagnostic-pragma-once-outside-header,
+  -bugprone-exception-escape,
+  -bugprone-branch-clone,
+  -readability-magic-numbers,
+  -readability-function-cognitive-complexity,
+  -readability-identifier-length,
+  -bugprone-easily-swappable-parameters
+
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+FormatStyle:     'file'
